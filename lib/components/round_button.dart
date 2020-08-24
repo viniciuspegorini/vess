@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:vess_oficial/constants.dart';
+import 'package:vess_avaliacao_do_solo/constants.dart';
 
 class RoundButton extends StatelessWidget {
   final String text;
   final Color color;
   final Function onPressed;
-
   RoundButton(
       {@required this.color, @required this.text, @required this.onPressed});
 

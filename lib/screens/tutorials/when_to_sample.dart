@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:vess_oficial/components/switch_page_buttons.dart';
-import 'package:vess_oficial/constants.dart';
+import 'package:vess_avaliacao_do_solo/components/switch_page_buttons.dart';
+import 'package:vess_avaliacao_do_solo/constants.dart';
 
 class WhenToSample extends StatelessWidget {
   @override

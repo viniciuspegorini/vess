@@ -44,12 +44,12 @@ const kTutorialTitleTextStyle = TextStyle(
 
 const kRecommendationTitleTextStyle = TextStyle(
   color: Color(0xFF664229),
-  fontSize: 30,
+  fontSize: 35,
   fontWeight: FontWeight.w600,
 );
 
 const kRecommendationTextStyle = TextStyle(
-  color: Color(0xFF664229),
+  color: Color(0xFF161219),
   fontSize: 20,
   fontWeight: FontWeight.w400,
 );

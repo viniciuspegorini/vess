@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:vess_oficial/constants.dart';
+import 'package:vess_avaliacao_do_solo/constants.dart';
 
 class CardApp extends StatelessWidget {
   final String title;

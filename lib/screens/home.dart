@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:vess_oficial/components/bottom_simple_button.dart';
-import 'package:vess_oficial/components/evaluate_button.dart';
-import 'package:vess_oficial/components/item_menu_tutorial.dart';
-import 'package:vess_oficial/components/round_button.dart';
-import 'package:vess_oficial/constants.dart';
+import 'package:vess_avaliacao_do_solo/components/bottom_simple_button.dart';
+import 'package:vess_avaliacao_do_solo/components/evaluate_button.dart';
+import 'package:vess_avaliacao_do_solo/components/item_menu_tutorial.dart';
+import 'package:vess_avaliacao_do_solo/components/round_button.dart';
+import 'package:vess_avaliacao_do_solo/constants.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -110,7 +110,7 @@ class _HomeState extends State<Home> {
                   //List VIEW ====================
                 ],
               ),
-            ),
+            ), //Tutorial
             Expanded(
               flex: 1,
               child: Column(
@@ -187,12 +187,13 @@ class _HomeState extends State<Home> {
                   ),
                 ],
               ), // === EVALUATE SE ===
-            ),
+            ), // Evaluation section
             Expanded(
               // === BOTTOM SECTION ===
               flex: 1,
               child: Column(
                 children: <Widget>[
+                  //HERE========================================
                   BottomSimpleButton(
                     text: 'O que é VESS',
                     onPressed: () {
@@ -210,7 +211,7 @@ class _HomeState extends State<Home> {
                   ),
                 ],
               ),
-            ),
+            ), // Project info
           ],
         ),
       ),

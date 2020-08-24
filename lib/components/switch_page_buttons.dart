@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'switch_page_button.dart';
+// This swich buttons recive the function (navigation).
 
 class SwitchPageButtons extends StatelessWidget {
   final Function onPressedBackButton;

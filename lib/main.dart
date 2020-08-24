@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:vess_oficial/screens/evaluate/1_layer.dart';
-import 'package:vess_oficial/screens/evaluate/2_layer.dart';
-import 'package:vess_oficial/screens/evaluate/3_layer.dart';
-import 'package:vess_oficial/screens/evaluate/4_layer.dart';
-import 'package:vess_oficial/screens/evaluate/5_layer.dart';
-import 'package:vess_oficial/screens/home.dart';
-import 'package:vess_oficial/screens/informations/about_app.dart';
-import 'package:vess_oficial/screens/informations/what_is_vess.dart';
-import 'package:vess_oficial/screens/onBoarding/recommendation_screen.dart';
-import 'package:vess_oficial/screens/tutorials/equipments.dart';
-import 'package:vess_oficial/screens/tutorials/grade_assignment.dart';
-import 'package:vess_oficial/screens/tutorials/sample_extraction.dart';
-import 'package:vess_oficial/screens/tutorials/sample_fragmentation.dart';
-import 'package:vess_oficial/screens/tutorials/when_to_sample.dart';
-import 'package:vess_oficial/screens/tutorials/where_to_sample.dart';
+import 'package:vess_avaliacao_do_solo/screens/evaluate/1_layer.dart';
+import 'package:vess_avaliacao_do_solo/screens/evaluate/2_layer.dart';
+import 'package:vess_avaliacao_do_solo/screens/evaluate/3_layer.dart';
+import 'package:vess_avaliacao_do_solo/screens/evaluate/4_layer.dart';
+import 'package:vess_avaliacao_do_solo/screens/evaluate/5_layer.dart';
+import 'package:vess_avaliacao_do_solo/screens/home.dart';
+import 'package:vess_avaliacao_do_solo/screens/informations/about_app.dart';
+import 'package:vess_avaliacao_do_solo/screens/informations/what_is_vess.dart';
+import 'package:vess_avaliacao_do_solo/screens/onBoarding/recommendation_screen.dart';
+import 'package:vess_avaliacao_do_solo/screens/tutorials/equipments.dart';
+import 'package:vess_avaliacao_do_solo/screens/tutorials/grade_assignment.dart';
+import 'package:vess_avaliacao_do_solo/screens/tutorials/sample_extraction.dart';
+import 'package:vess_avaliacao_do_solo/screens/tutorials/sample_fragmentation.dart';
+import 'package:vess_avaliacao_do_solo/screens/tutorials/when_to_sample.dart';
+import 'package:vess_avaliacao_do_solo/screens/tutorials/where_to_sample.dart';
 
 void main() => runApp(MyApp());
 

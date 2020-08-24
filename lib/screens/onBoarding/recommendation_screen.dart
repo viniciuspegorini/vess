@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:vess_oficial/constants.dart';
+import 'package:vess_avaliacao_do_solo/constants.dart';
 
 class Recommendation extends StatelessWidget {
   @override

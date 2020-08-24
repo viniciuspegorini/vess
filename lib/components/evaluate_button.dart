@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:vess_oficial/constants.dart';
+import 'package:vess_avaliacao_do_solo/constants.dart';
 
 class EvaluateButton extends StatelessWidget {
   final Function onPressed;

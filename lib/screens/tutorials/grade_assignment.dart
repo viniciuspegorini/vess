@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:vess_oficial/components/dots_app.dart';
-import 'package:vess_oficial/components/page_view_grades.dart';
-import 'package:vess_oficial/constants.dart';
+import 'package:vess_avaliacao_do_solo/components/dots_app.dart';
+import 'package:vess_avaliacao_do_solo/components/page_view_grades.dart';
+import 'package:vess_avaliacao_do_solo/constants.dart';
 
 class GradeAssignment extends StatefulWidget {
   @override
