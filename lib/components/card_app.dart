@@ -4,8 +4,14 @@ import 'package:vess_avaliacao_do_solo/constants.dart';
 class CardApp extends StatelessWidget {
   final String title;
   final String description;
+  final String image;
 
-  const CardApp({Key key, this.title, this.description}) : super(key: key);
+  const CardApp({
+    Key key,
+    this.title,
+    this.description,
+    this.image,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -32,13 +38,21 @@ class CardApp extends StatelessWidget {
             SizedBox(
               height: 8,
             ),
-            Icon(Icons.keyboard_arrow_right),
+            Divider(
+              height: 50,
+              color: Colors.black45,
+            ),
+            image != null
+                ? Image.asset(
+                    image,
+                    width: 150,
+                    height: 150,
+                  )
+                : Text(''),
           ],
         ),
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(5),
-          color: Colors.white12,
-        ),
+            borderRadius: BorderRadius.circular(5), color: Colors.white12),
       ),
     );
   }

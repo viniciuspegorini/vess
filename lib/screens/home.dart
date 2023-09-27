@@ -12,7 +12,7 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  var items = List<RoundButton>();
+  var items = List<RoundButton>.empty();
   int buttonPressed = 1;
   @override
   Widget build(BuildContext context) {
@@ -195,7 +195,7 @@ class _HomeState extends State<Home> {
                 children: <Widget>[
                   //HERE========================================
                   BottomSimpleButton(
-                    text: 'O que é VESS',
+                    text: 'O que é o VESS?',
                     onPressed: () {
                       Navigator.pushNamed(context, '/what_is_vess');
                     },

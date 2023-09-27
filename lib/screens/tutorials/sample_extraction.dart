@@ -42,6 +42,13 @@ class SampleExtraction extends StatelessWidget {
                 height: 50,
                 color: Colors.black45,
               ),
+              Image.asset(
+                "assets/images/swapslice.gif",
+              ),
+              Divider(
+                height: 50,
+                color: Colors.black45,
+              ),
               SwitchPageButtons(
                 onPressedBackButton: () {
                   Navigator.pop(context);

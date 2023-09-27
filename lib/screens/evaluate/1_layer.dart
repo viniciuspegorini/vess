@@ -40,7 +40,7 @@ class _EvaluateOneLayerState extends State<EvaluateOneLayer> {
                     icon: FontAwesomeIcons.layerGroup,
                     onChange: (String str) {
                       setState(() {
-                        layer1 = double.parse(str);
+                        if (str != "") layer1 = double.parse(str);
                         print(layer1);
                       });
                     },
@@ -53,7 +53,7 @@ class _EvaluateOneLayerState extends State<EvaluateOneLayer> {
                     icon: FontAwesomeIcons.solidStar,
                     onChange: (String str) {
                       setState(() {
-                        grade1 = double.parse(str);
+                        if (str != "") grade1 = double.parse(str);
                         print(grade1);
                       });
                     },

@@ -43,7 +43,7 @@ class _EvaluateThreeLayerState extends State<EvaluateThreeLayer> {
                     icon: FontAwesomeIcons.layerGroup,
                     onChange: (String str) {
                       setState(() {
-                        layer1 = double.parse(str);
+                        if (str != "") layer1 = double.parse(str);
                         print(layer1);
                       });
                     },
@@ -56,7 +56,7 @@ class _EvaluateThreeLayerState extends State<EvaluateThreeLayer> {
                     icon: FontAwesomeIcons.solidStar,
                     onChange: (String str) {
                       setState(() {
-                        grade1 = double.parse(str);
+                        if (str != "") grade1 = double.parse(str);
                         print(grade1);
                       });
                     },
@@ -69,7 +69,7 @@ class _EvaluateThreeLayerState extends State<EvaluateThreeLayer> {
                     icon: FontAwesomeIcons.layerGroup,
                     onChange: (String str) {
                       setState(() {
-                        layer2 = double.parse(str);
+                        if (str != "") layer2 = double.parse(str);
                         print(layer2);
                       });
                     },
@@ -82,7 +82,7 @@ class _EvaluateThreeLayerState extends State<EvaluateThreeLayer> {
                     icon: FontAwesomeIcons.solidStar,
                     onChange: (String str) {
                       setState(() {
-                        grade2 = double.parse(str);
+                        if (str != "") grade2 = double.parse(str);
                         print(grade2);
                       });
                     },
@@ -95,7 +95,7 @@ class _EvaluateThreeLayerState extends State<EvaluateThreeLayer> {
                     icon: FontAwesomeIcons.layerGroup,
                     onChange: (String str) {
                       setState(() {
-                        layer3 = double.parse(str);
+                        if (str != "") layer3 = double.parse(str);
                         print(layer3);
                       });
                     },
@@ -108,7 +108,7 @@ class _EvaluateThreeLayerState extends State<EvaluateThreeLayer> {
                     icon: FontAwesomeIcons.solidStar,
                     onChange: (String str) {
                       setState(() {
-                        grade3 = double.parse(str);
+                        if (str != "") grade3 = double.parse(str);
                         print(grade3);
                       });
                     },

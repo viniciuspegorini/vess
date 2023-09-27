@@ -34,6 +34,7 @@ const kBottomButtonTextStyle = TextStyle(
   color: Colors.black87,
   fontSize: 24,
   fontWeight: FontWeight.w400,
+  decoration: TextDecoration.underline,
 );
 
 const kTutorialTitleTextStyle = TextStyle(
